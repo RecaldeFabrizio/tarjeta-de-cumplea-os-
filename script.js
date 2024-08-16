@@ -1,7 +1,7 @@
 /*                                                                         Contador                                                                                   */
 
 document.addEventListener("DOMContentLoaded", function () {
-    const weddingDate = new Date("2023-11-12T13:00:00").getTime();
+    const weddingDate = new Date("2024-10-06T13:22:00").getTime();
 
     const countdown = setInterval(function () {
       const now = new Date().getTime();
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /*                                                                         Maps                                                                                   */
   
 function iniciarMap(){
-    var coord = {lat:-34.5682722, lng:-58.5913008};
+    var coord = {lat:-34.4925844, lng:-58.5111524};
     var map = new google.maps.Map(document.getElementById('map'),{
         zoom: 10,
         center: coord
