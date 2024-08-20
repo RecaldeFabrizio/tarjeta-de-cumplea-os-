@@ -169,14 +169,14 @@ body{
    color: #fff;
  }
 
- .lista h2{
+ .cvu{
    display: flex;
-   font-size: 35px;
-   justify-content: center;
-   color: #e9a5a5;
+   flex-wrap: wrap;
+   width: 100%;
+   min-width: 250px;
  }
 
- .listmp{
+ .cvu h1{
    display: flex;
    flex-direction: column;
    flex: 2;
@@ -184,10 +184,31 @@ body{
    margin-top: 250px;
    background-size: cover;
    background-position: center;
-   transform: translateY(-50%);
+   font-size: 30px;
+   transform: translateY(-200%);
+   text-align: center;
+   color: #e9a5a5;
+   
+ }
+
+ .confir{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   min-width: 250px;
+ }
+
+ .confir h1{
+   flex-direction: column;
+   flex: 2;
+   width: 50%;
+   margin-top: 250px;
+   background-size: cover;
+   background-position: center;
+   font-size: 30px;
+   transform: translateY(-300%);
    text-align: center;
    color: #fff;
-   
  }
 
  .mp a{
@@ -195,6 +216,7 @@ body{
    height: 25%;
    align-items: center;
    justify-content: center;
+   transform: translateY(-1800%);
 } 
 
  .logmp{
