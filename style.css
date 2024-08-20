@@ -169,6 +169,13 @@ body{
    color: #fff;
  }
 
+ .lista h2{
+   display: flex;
+   font-size: 35px;
+   justify-content: center;
+   color: #e9a5a5;
+ }
+
  .listmp{
    display: flex;
    flex-direction: column;
